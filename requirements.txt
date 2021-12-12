@@ -1,7 +1,7 @@
 streamlit
 pandas
 Pillow
-cv2
+opencv-python
 requests
 json
 numpy
