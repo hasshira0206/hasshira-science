@@ -4,3 +4,4 @@ Pillow
 cv2
 requests
 json
+numpy
