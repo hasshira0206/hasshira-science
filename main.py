@@ -1,7 +1,5 @@
 import pandas as pd
 import numpy as np
-from PIL import Image, ImageDraw
-import cv2 as cv
 import requests, json
 import streamlit as st
 st.write('エラーが出ていますが、気にしない。気にしない。')
