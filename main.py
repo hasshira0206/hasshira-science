@@ -27,12 +27,4 @@ if st.checkbox("確定！"):
     num=res_dict['y'].split('.')
     num=int(num[0])
     st.write(keisan(K,num),"度になります")
-    if st.checkbox("迫力を味わう"):
-        imgA = cv.imread('a.png')
-        mozi=str(keisan(K,num))+"!!!!!!!!!!!!!!"
-        cv.putText(imgA,mozi, (140, 160), cv.FONT_HERSHEY_PLAIN, 4, (255,0,0), 5, cv.LINE_AA)
-        st.image(imgA)
-    if K=="夏至！":
-        img = cv.imread('test.PNG')
-        cv.putText(img, str(keisan(K,num)), (1750, 642), cv.FONT_HERSHEY_PLAIN, 4, (255,0,0), 5, cv.LINE_AA)
-        st.image(img)
+  
