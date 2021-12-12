@@ -1,0 +1,6 @@
+streamlit
+pandas
+Pillow
+cv2
+requests
+json
